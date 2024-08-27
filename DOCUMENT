@@ -1,0 +1,34 @@
+- tdd: write the test that drive development
+- mocking: avoid relying on external service
+           make test unpredictable and inconsistent
+          
+          - avoid unintended consequences
+            accidentally sending emails
+            overloading external services
+          - EX: avoid sending email for use in email function
+
+
+- Testing API: 
+          - Using the API client
+          - Create APIClient
+- Common testing problem: tests not running, ran less tests than you have
+      - missing __init__.py in tests  dir
+      - indentation of test cases
+      - Import Error in the test
+
+# ----------------------------------------------------------------------
+Database :
+  - POSTGRESSQL
+    - Popular open source DB
+    - Integrates well with Django
+
+  - Docker COMPOSE
+    - Defined with project (re-usable)
+    - Persistent data using volumes 
+    - Handles network configuration
+    - Environment variable configuration
+    
+# ...........................................................................
+Docker Compose ______> App <---> Database need height weight version
+volumes: persistent data
+          maps directory in container to local machine
