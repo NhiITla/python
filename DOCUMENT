@@ -32,3 +32,38 @@ Database :
 Docker Compose ______> App <---> Database need height weight version
 volumes: persistent data
           maps directory in container to local machine
+
+#---- Django should know abt PostgresSQL
+ENGINE
+Host
+Name
+User 
+Password
+=> store it in env
+
+- env: pull config values from environment variable
+      - easy passed to Docker
+      - Used in local dev or prod
+
+- psycopg2:
+  Most popular Postgres SQL for python
+  psycopg2-binary:
+    -OK for development + Not good for PROD
+- Psycopg2 :
+    -Compiles from source
+    -required additional dependencies
+    -easy to install with Docker
+    -list od dependencies
+      C compiler
+      python3-dev
+      libqp-dev
+    Equivalent packages for Alpine
+    Postgresql-clien
+    build-base
+    postgresql
+    mustl-dev
+
+-docker delete all dependencies (clean up)
+
+- install PostgresSQL apdaptor:
+
