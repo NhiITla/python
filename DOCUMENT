@@ -65,5 +65,13 @@ Password
 
 -docker delete all dependencies (clean up)
 
-- install PostgresSQL apdaptor:
+- install PostgresSQL adaptor
+- Problem with Docker compose:
+  - using depends on: ensure service starts
+  -> does not ensure application is running
+  SOLUTION:
+  check for dv available
+  continue when db is ready
+  
+
 
