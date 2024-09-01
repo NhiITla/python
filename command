@@ -4,7 +4,7 @@ docker-compose run --rm app sh -c "python manage.py startapp core"
 
 docker-compose up
 
-2. run django app
+- 2. run django app:
 docker-compose up
 - to delete resouce after docker-compose-up: 
 docker-compose down -v --rmi all
@@ -16,3 +16,6 @@ Make sure you run these commands from the directory where your docker-compose.ym
 - 3. added github action:
 
 write the test after that write the code
+
+-4. run test:
+ docker-compose run --rm app sh -c "python manage.py test"
