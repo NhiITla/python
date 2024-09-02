@@ -98,3 +98,16 @@ patch?
   ensue app is enable in setting.py
   use django CLI
     python manage.py makemigration
+
+- Django user model :
+  - build in function / default user model (username instead of email)
+  - not easy to custom
+
+  -create a custom model for new project :
+    create model -> base from AstractBase User and PermissionMixin
+    create custom manager -> create custom manager ->...
+    
+  # --------------------------------
+  - Design custom user model : user, is arrived,...
+  - Design model manager: used to manage object, custom logic for creating object (hash pass)
+  - base user manager : 

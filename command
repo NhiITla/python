@@ -18,5 +18,5 @@ Make sure you run these commands from the directory where your docker-compose.ym
 write the test after that write the code
 
 -4. run test:
- docker-compose run --rm app sh -c "python manage.py test"
-  docker-compose run --rm app sh -c "python manage.py wait_for_db"
+docker-compose run --rm app sh -c "python manage.py test"
+docker-compose run --rm app sh -c "python manage.py wait_for_db"
