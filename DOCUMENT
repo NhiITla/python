@@ -111,3 +111,4 @@ patch?
   - Design custom user model : user, is arrived,...
   - Design model manager: used to manage object, custom logic for creating object (hash pass)
   - base user manager : 
+  
