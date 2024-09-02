@@ -19,3 +19,4 @@ write the test after that write the code
 
 -4. run test:
  docker-compose run --rm app sh -c "python manage.py test"
+  docker-compose run --rm app sh -c "python manage.py wait_for_db"

@@ -78,3 +78,23 @@ Password
 def handle(self, *args, **options):
 mock ?
 patch?
+
+- Django ORM:
+  Object Relational Mapper ORM
+  Abstraction layer of data:
+    handle db structure and changes
+    focus on Python code
+    use any db (within reason)
+
+- Using the ORM :
+  define models -> generate migration files -> set up db ->store data
+
+- model:
+  each model maps to a table
+  model contain : name, fields, other meta data
+  custom python logic
+
+  + create migration:
+  ensue app is enable in setting.py
+  use django CLI
+    python manage.py makemigration
