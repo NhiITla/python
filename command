@@ -33,3 +33,5 @@ docker-compose run --rm app sh -c "python manage.py createsuperuser"
 
 email: admin@gmail.com
 pass: test123
+
+docker-compose run --rm app sh -c "python manage.py startapp user"

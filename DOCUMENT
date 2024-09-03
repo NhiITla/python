@@ -139,3 +139,11 @@ patch?
       how it works:
       gen schema -> parse schema into GUI
       OpenAPI Schema (standard) swagger
+
+# - User API (registration/ creating user/ manage)
+- Endpoints: 
+  user/create: POST register new user
+  user/token: POST create new token
+  user/me: PUT/ PATCH Update profile
+           GET - get user profile
+
