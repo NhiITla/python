@@ -111,4 +111,6 @@ patch?
   - Design custom user model : user, is arrived,...
   - Design model manager: used to manage object, custom logic for creating object (hash pass)
   - base user manager : 
-  
+  https://docs.djangoproject.com/en/3.2/topics/testing/tools/#overview-and-a-quick-example
+
+  https://docs.djangoproject.com/en/3.1/ref/contrib/admin/#reversing-admin-urls
