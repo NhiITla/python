@@ -114,3 +114,28 @@ patch?
   https://docs.djangoproject.com/en/3.2/topics/testing/tools/#overview-and-a-quick-example
 
   https://docs.djangoproject.com/en/3.1/ref/contrib/admin/#reversing-admin-urls
+
+  - API DOCUMENT:
+    what to document:
+      + everything needed to use the API
+      + available endpoints (path)
+
+      + supported method (GET/POST/PUT/PATCH/DELETE)
+      + format of payloads (inputs parameters)
+      + post json format
+      + response output (format,..)
+      + Authentication process
+
+    Options for documentations:
+      _word doc
+      _markdown
+      _automated (use metadata from code/ comments)
+      _> using tool 
+
+    Docs in DRF :
+      drf-spectacular
+      generate schema/ browsable web interface/ make test request/ handle auth
+
+      how it works:
+      gen schema -> parse schema into GUI
+      OpenAPI Schema (standard) swagger
