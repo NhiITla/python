@@ -149,3 +149,17 @@ patch?
 
   extra_kwargs ?
   serializer ?
+
+# - AUTHENTICATION-------------------
+- basic : username + password --> bad
+- token: Use token in the http header :
+  - balance of simplicity and security
+  - support out of the box by DRF
+  - well support 
+
+  Create token (username+pass) --->store token on client (localstorage/ cookie) ---> include token in http headers
+  cons: 
+
+- JSON WEB TOKEN (JWT):
+  Use an access and refresh token (scalable, milion request)
+- session: use cookie
